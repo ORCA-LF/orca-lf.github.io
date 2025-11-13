@@ -13,6 +13,7 @@
       --text-muted: #4b5563;
       --accent: #0369a1;
       --border: #e5e7eb;
+      --chip-bg: #eef2ff;
     }
 
     * {
@@ -46,6 +47,16 @@
     header {
       text-align: center;
       margin-bottom: 2rem;
+    }
+
+    .top-links {
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      margin-bottom: 0.8rem;
+    }
+
+    .top-links a {
+      font-weight: 500;
     }
 
     .logo {
@@ -96,6 +107,38 @@
       margin-top: 0.3rem;
     }
 
+    .stack-intro {
+      margin-top: 0.4rem;
+    }
+
+    .layer-stack {
+      margin-top: 0.6rem;
+      display: flex;
+      flex-direction: column;
+      gap: 0.35rem;
+    }
+
+    .layer-box {
+      border-radius: 0.55rem;
+      border: 1px solid var(--border);
+      background: var(--chip-bg);
+      padding: 0.4rem 0.7rem;
+      font-size: 0.9rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .layer-name {
+      font-weight: 600;
+    }
+
+    .layer-note {
+      font-size: 0.82rem;
+      color: var(--text-muted);
+      margin-left: 0.75rem;
+    }
+
     footer {
       margin-top: 2rem;
       font-size: 0.8rem;
@@ -109,6 +152,14 @@
 <body>
   <div class="page">
     <header>
+      <div class="top-links">
+        <a href="https://github.com/ORCA-LF/orca-lf.github.io" target="_blank" rel="noopener">
+          View site on GitHub
+        </a>
+        ·
+        <a href="mailto:nrenner@nyu.edu">Contact / more information</a>
+      </div>
+
       <!-- Main logo -->
       <img
         src="logos/orca-logo-text.png"
@@ -154,6 +205,40 @@
           when something goes wrong. Strong compartment boundaries help ensure
           that one compromise does not translate into a full-system failure.
         </p>
+      </section>
+
+      <section>
+        <h2>Where we work in the stack</h2>
+        <p class="stack-intro">
+          ORCA is intentionally cross-layer. We are interested in techniques that reinforce
+          one another, from hardware through to applications and runtimes:
+        </p>
+        <div class="layer-stack" aria-label="Technology areas ORCA cares about">
+          <div class="layer-box">
+            <span class="layer-name">Hardware &amp; processors</span>
+            <span class="layer-note">architectural support, memory protection</span>
+          </div>
+          <div class="layer-box">
+            <span class="layer-name">Hypervisors &amp; virtualization</span>
+            <span class="layer-note">VM isolation, secure hosting layers</span>
+          </div>
+          <div class="layer-box">
+            <span class="layer-name">Operating systems &amp; kernels</span>
+            <span class="layer-note">compartmentalized OS designs</span>
+          </div>
+          <div class="layer-box">
+            <span class="layer-name">Containers &amp; orchestration</span>
+            <span class="layer-note">multi-tenant services, cloud isolation</span>
+          </div>
+          <div class="layer-box">
+            <span class="layer-name">User-space isolation</span>
+            <span class="layer-note">Wasm, sandboxes, SFI, libraries</span>
+          </div>
+          <div class="layer-box">
+            <span class="layer-name">Languages &amp; runtimes</span>
+            <span class="layer-note">memory-safe PLs, capability systems</span>
+          </div>
+        </div>
       </section>
 
       <section>
