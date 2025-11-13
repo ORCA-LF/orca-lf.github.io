@@ -1,1 +1,190 @@
-Hello World!
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Open Robust Compartmentalization Alliance (ORCA)</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Open Robust Compartmentalization Alliance (ORCA) – a neutral, open community for practical software isolation and compartmentalization.">
+  <style>
+    :root {
+      --bg: #f9fafb;
+      --card: #ffffff;
+      --text-main: #111827;
+      --text-muted: #4b5563;
+      --accent: #0369a1;
+      --border: #e5e7eb;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: var(--bg);
+      color: var(--text-main);
+      line-height: 1.6;
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .page {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 2.5rem 1.5rem 3rem;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+
+    .logo {
+      max-width: 260px;
+      height: auto;
+      margin-bottom: 1rem;
+    }
+
+    header h1 {
+      font-size: 1.7rem;
+      margin-bottom: 0.4rem;
+    }
+
+    header p {
+      font-size: 0.98rem;
+      color: var(--text-muted);
+    }
+
+    main {
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+    }
+
+    section {
+      background: var(--card);
+      border-radius: 0.75rem;
+      border: 1px solid var(--border);
+      padding: 1.25rem 1.4rem;
+      font-size: 0.95rem;
+    }
+
+    section h2 {
+      font-size: 1.05rem;
+      margin-bottom: 0.35rem;
+    }
+
+    section p + p {
+      margin-top: 0.6rem;
+    }
+
+    ul {
+      margin-top: 0.4rem;
+      padding-left: 1.2rem;
+    }
+
+    li + li {
+      margin-top: 0.3rem;
+    }
+
+    footer {
+      margin-top: 2rem;
+      font-size: 0.8rem;
+      color: var(--text-muted);
+      border-top: 1px solid var(--border);
+      padding-top: 0.9rem;
+      text-align: left;
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <header>
+      <!-- Main logo -->
+      <img
+        src="logos/orca-logo-text.png"
+        alt="Open Robust Compartmentalization Alliance (ORCA) logo"
+        class="logo"
+      >
+      <h1>Open Robust Compartmentalization Alliance (ORCA)</h1>
+      <p>
+        A neutral, open foundation for people building real-world isolation and
+        compartmentalization into software systems.
+      </p>
+    </header>
+
+    <main>
+      <section>
+        <h2>What is ORCA?</h2>
+        <p>
+          ORCA is a new foundation focused on advancing practical software isolation and
+          compartmentalization. For too long, a single fault or failure in software has
+          been enough to trigger large-scale disruptions and security incidents.
+        </p>
+        <p>
+          Our goal is to help the community build and deploy defense-in-depth techniques
+          so that bugs are harder to turn into working exploits and their impact is
+          limited when they do occur.
+        </p>
+      </section>
+
+      <section>
+        <h2>Why now?</h2>
+        <p>
+          Cyber attacks are increasing in scale and speed, and AI is making it cheaper
+          to probe and exploit systems. Today, we invest heavily in reducing the
+          <em>likelihood</em> of vulnerabilities being exploitable.
+        </p>
+        <p>
+          ORCA focuses on the other half of the equation: reducing the <em>impact</em>.
+          Robust compartmentalization ensures that a single compromise does not lead to
+          total system failure.
+        </p>
+      </section>
+
+      <section>
+        <h2>How to get involved</h2>
+        <ul>
+          <li>
+            <strong>Everyone is welcome.</strong> We are a broad community spanning
+            hardware, operating systems, programming languages, user-space runtimes,
+            and applied security.
+          </li>
+          <li>
+            <strong>Bring your use cases.</strong> We are especially interested in
+            early adopters who want to try out isolation and compartmentalization
+            techniques in real deployments.
+          </li>
+          <li>
+            <strong>Stay in the loop.</strong> We are organizing a community kick-off
+            meeting and will share details as they are finalized.
+          </li>
+        </ul>
+        <p style="margin-top: 0.7rem;">
+          To express interest or ask questions, email
+          <a href="mailto:nrenner@nyu.edu">nrenner@nyu.edu</a>.
+        </p>
+      </section>
+    </main>
+
+    <footer>
+      <div>
+        © <span id="year"></span> Open Robust Compartmentalization Alliance (ORCA).
+      </div>
+    </footer>
+  </div>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
