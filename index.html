@@ -109,6 +109,20 @@
       margin-bottom: 1rem;
     }
 
+    /* Linux Foundation badge */
+    .lf-badge {
+      display: inline-flex;
+      align-items: center;
+      padding: 0.18rem 0.6rem;
+      border-radius: 999px;
+      border: 1px solid var(--border);
+      background: #eff6ff;
+      font-size: 0.78rem;
+      font-weight: 500;
+      color: var(--text-muted);
+      margin-bottom: 0.75rem;
+    }
+
     header h1 {
       font-size: 1.7rem;
       margin-bottom: 0.4rem;
@@ -198,7 +212,7 @@
     <header>
       <div class="header-top">
         <div class="header-brand">
-          ORCA · Open Robust Compartmentalization Alliance
+          ORCA · Open Robust Compartmentalization Alliance · A Linux Foundation project
         </div>
         <nav class="header-nav" aria-label="Primary">
           <a
@@ -238,6 +252,17 @@
           alt="Open Robust Compartmentalization Alliance (ORCA) logo"
           class="logo"
         >
+        <div class="lf-badge">
+          Part of the
+          <a
+            href="https://www.linuxfoundation.org/projects"
+            target="_blank"
+            rel="noopener"
+            style="margin-left: 0.25rem;"
+          >
+            Linux Foundation
+          </a>
+        </div>
         <h1>Open Robust Compartmentalization Alliance (ORCA)</h1>
         <p>
           An open, vendor-neutral home for people bringing practical isolation
@@ -250,7 +275,7 @@
       <section>
         <h2>What is ORCA?</h2>
         <p>
-          ORCA is a newly formed foundation devoted to making isolation and
+          ORCA is a Linux Foundation project devoted to making isolation and
           compartmentalization approaches usable in real software stacks. Today,
           a single coding mistake or design flaw can still ripple into
           outages and serious security incidents.
@@ -314,44 +339,43 @@
         </div>
       </section>
 
-
-    <section id="get-involved">
-    <h2>How to get involved</h2>
-    <ul>
-        <li>
-        <strong>Open to many communities.</strong> ORCA spans hardware,
-        operating systems, programming languages, user-space runtimes,
-        and applied security. If you care about isolation, there is a
-        place for you here.
-        </li>
-        <li>
-        <strong>Share real-world scenarios.</strong> We are especially
-        interested in organizations willing to try out isolation and
-        compartmentalization techniques in production or near-production
-        settings and report back what works.
-        </li>
-        <li>
-        <strong>Watch for the kickoff.</strong> A community kick-off
-        meeting is being organized to introduce the foundation, early
-        projects, and initial use cases.
-        </li>
-    </ul>
-    <p style="margin-top: 0.7rem;">
-        To express interest, ask questions, or discuss potential
-        participation, email
-        <a href="mailto:info@orca-lf.org">info@orca-lf.org</a>.
-    </p>
-    <p style="margin-top: 0.4rem;">
-        You can also join our community Slack workspace:
-        <a
-        href="https://join.slack.com/t/orca-lf/shared_invite/zt-3jlxetgj4-n4nKI0sG1JJM7p~5AMu3Zw"
-        target="_blank"
-        rel="noopener noreferrer"
-        >
-        Join the ORCA Slack
-        </a>.
-    </p>
-    </section>
+      <section id="get-involved">
+        <h2>How to get involved</h2>
+        <ul>
+          <li>
+            <strong>Open to many communities.</strong> ORCA spans hardware,
+            operating systems, programming languages, user-space runtimes,
+            and applied security. If you care about isolation, there is a
+            place for you here.
+          </li>
+          <li>
+            <strong>Share real-world scenarios.</strong> We are especially
+            interested in organizations willing to try out isolation and
+            compartmentalization techniques in production or near-production
+            settings and report back what works.
+          </li>
+          <li>
+            <strong>Watch for the kickoff.</strong> A community kick-off
+            meeting is being organized to introduce the foundation, early
+            projects, and initial use cases.
+          </li>
+        </ul>
+        <p style="margin-top: 0.7rem;">
+          To express interest, ask questions, or discuss potential
+          participation, email
+          <a href="mailto:info@orca-lf.org">info@orca-lf.org</a>.
+        </p>
+        <p style="margin-top: 0.4rem;">
+          You can also join our community Slack workspace:
+          <a
+            href="https://join.slack.com/t/orca-lf/shared_invite/zt-3jlxetgj4-n4nKI0sG1JJM7p~5AMu3Zw"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Join the ORCA Slack
+          </a>.
+        </p>
+      </section>
 
     </main>
 
