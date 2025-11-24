@@ -109,20 +109,6 @@
       margin-bottom: 1rem;
     }
 
-    /* Linux Foundation badge */
-    .lf-badge {
-      display: inline-flex;
-      align-items: center;
-      padding: 0.18rem 0.6rem;
-      border-radius: 999px;
-      border: 1px solid var(--border);
-      background: #eff6ff;
-      font-size: 0.78rem;
-      font-weight: 500;
-      color: var(--text-muted);
-      margin-bottom: 0.75rem;
-    }
-
     header h1 {
       font-size: 1.7rem;
       margin-bottom: 0.4rem;
@@ -212,7 +198,15 @@
     <header>
       <div class="header-top">
         <div class="header-brand">
-          ORCA · Open Robust Compartmentalization Alliance · A Linux Foundation project
+          ORCA · Open Robust Compartmentalization Alliance ·
+          a foundation of
+          <a
+            href="https://www.linuxfoundation.org/projects"
+            target="_blank"
+            rel="noopener"
+          >
+            The Linux Foundation
+          </a>
         </div>
         <nav class="header-nav" aria-label="Primary">
           <a
@@ -247,37 +241,32 @@
             rel="noopener noreferrer"
           >
             <svg viewBox="0 0 16 16" aria-hidden="true" focusable="false">
-              <!-- simple chat-bubble icon -->
               <path d="M3 3h10a1 1 0 0 1 1 1v6.5a1 1 0 0 1-1 1H8.2L5 14.5V11H3a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1zm2 3a.75.75 0 0 0 0 1.5h6A.75.75 0 1 0 11 6H5zm0 3a.75.75 0 0 0 0 1.5h3A.75.75 0 1 0 8 9H5z" />
             </svg>
             <span>Slack</span>
           </a>
 
+          <a
+            class="nav-link"
+            href="https://www.linuxfoundation.org/projects"
+            target="_blank"
+            rel="noopener"
+          >
+            <span>Linux Foundation</span>
+          </a>
+
           <a class="nav-link" href="#get-involved">
             How to get involved
           </a>
-        </nav>  
-
+        </nav>
       </div>
 
       <div class="header-main">
-        <!-- Main logo -->
         <img
           src="logos/orca-logo-text.png"
           alt="Open Robust Compartmentalization Alliance (ORCA) logo"
           class="logo"
         >
-        <div class="lf-badge">
-          Part of the
-          <a
-            href="https://www.linuxfoundation.org/projects"
-            target="_blank"
-            rel="noopener"
-            style="margin-left: 0.25rem;"
-          >
-            Linux Foundation
-          </a>
-        </div>
         <h1>Open Robust Compartmentalization Alliance (ORCA)</h1>
         <p>
           An open, vendor-neutral home for people bringing practical isolation
@@ -290,10 +279,17 @@
       <section>
         <h2>What is ORCA?</h2>
         <p>
-          ORCA is a Linux Foundation project devoted to making isolation and
-          compartmentalization approaches usable in real software stacks. Today,
-          a single coding mistake or design flaw can still ripple into
-          outages and serious security incidents.
+          ORCA is a foundation within
+          <a
+            href="https://www.linuxfoundation.org/projects"
+            target="_blank"
+            rel="noopener"
+          >
+            The Linux Foundation
+          </a>
+          devoted to making isolation and compartmentalization approaches usable
+          in real software stacks. Today, a single coding mistake or design flaw
+          can still ripple into outages and serious security incidents.
         </p>
         <p>
           The alliance exists to connect people who want to change that,
@@ -425,7 +421,6 @@
         </a>
       </div>
     </footer>
-
   </div>
 
   <script>
