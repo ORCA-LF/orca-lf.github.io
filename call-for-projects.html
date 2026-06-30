@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Call for Projects · Open Robust Compartmentalization Alliance (ORCA)</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="ORCA is now accepting projects at the Sandbox level — a call for projects from the Open Robust Compartmentalization Alliance (ORCA), a foundation of the Linux Foundation.">
+  <style>
+    :root {
+      --bg: #f9fafb;
+      --card: #ffffff;
+      --text-main: #111827;
+      --text-muted: #4b5563;
+      --accent: #0369a1;
+      --border: #e5e7eb;
+      --chip-bg: #eef2ff;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: var(--bg);
+      color: var(--text-main);
+      line-height: 1.6;
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .page {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 2.5rem 1.5rem 3rem;
+    }
+
+    header {
+      margin-bottom: 2rem;
+    }
+
+    .header-top {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 1rem;
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      gap: 0.75rem;
+      flex-wrap: wrap;
+    }
+
+    .header-brand {
+      font-weight: 600;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      font-size: 0.8rem;
+      color: var(--text-muted);
+    }
+
+    .header-nav {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      flex-wrap: wrap;
+    }
+
+    .nav-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.35rem;
+      padding: 0.28rem 0.7rem;
+      border-radius: 999px;
+      border: 1px solid var(--border);
+      background: rgba(255, 255, 255, 0.9);
+      font-weight: 500;
+      font-size: 0.85rem;
+      color: var(--text-main);
+      text-decoration: none;
+    }
+
+    .nav-link:hover {
+      background: #e5f2fb;
+      text-decoration: none;
+    }
+
+    .nav-link svg {
+      width: 14px;
+      height: 14px;
+      fill: currentColor;
+    }
+
+    .header-main {
+      text-align: center;
+    }
+
+    .logo {
+      max-width: 260px;
+      height: auto;
+      margin-bottom: 1rem;
+    }
+
+    header h1 {
+      font-size: 1.7rem;
+      margin-bottom: 0.4rem;
+    }
+
+    header p {
+      font-size: 0.98rem;
+      color: var(--text-muted);
+    }
+
+    main {
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+    }
+
+    section {
+      background: var(--card);
+      border-radius: 0.75rem;
+      border: 1px solid var(--border);
+      padding: 1.25rem 1.4rem;
+      font-size: 0.95rem;
+    }
+
+    section h2 {
+      font-size: 1.05rem;
+      margin-bottom: 0.35rem;
+    }
+
+    section p + p {
+      margin-top: 0.6rem;
+    }
+
+    ul {
+      margin-top: 0.4rem;
+      padding-left: 1.2rem;
+    }
+
+    li + li {
+      margin-top: 0.3rem;
+    }
+
+    ol {
+      margin-top: 0.4rem;
+      padding-left: 1.2rem;
+    }
+
+    footer {
+      margin-top: 2rem;
+      font-size: 0.8rem;
+      color: var(--text-muted);
+      border-top: 1px solid var(--border);
+      padding-top: 0.9rem;
+      text-align: left;
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <header>
+      <div class="header-top">
+        <div class="header-brand">
+          ORCA · Open Robust Compartmentalization Alliance ·
+          a foundation of
+          <a
+            href="https://www.linuxfoundation.org/projects"
+            target="_blank"
+            rel="noopener"
+          >
+            The Linux Foundation
+          </a>
+        </div>
+        <nav class="header-nav" aria-label="Primary">
+          <a class="nav-link" href="index.html">
+            <span>Home</span>
+          </a>
+          <a
+            class="nav-link"
+            href="https://github.com/ORCA-LF/"
+            target="_blank"
+            rel="noopener"
+          >
+            <svg viewBox="0 0 16 16" aria-hidden="true" focusable="false">
+              <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54
+                2.29 6.53 5.47 7.59.4.07.55-.17.55-.38
+                0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94
+                -.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52
+                -.01-.53.63-.01 1.08.58 1.23.82.72 1.21
+                1.87.87 2.33.66.07-.52.28-.87.51-1.07
+                -1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15
+                -.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82
+                .64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27
+                1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12
+                .51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95
+                .29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.19
+                0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8
+                c0-4.42-3.58-8-8-8Z" />
+            </svg>
+            <span>GitHub</span>
+          </a>
+
+          <a
+            class="nav-link"
+            href="https://join.slack.com/t/orca-lf/shared_invite/zt-3jlxetgj4-n4nKI0sG1JJM7p~5AMu3Zw"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <svg viewBox="0 0 16 16" aria-hidden="true" focusable="false">
+              <path d="M3 3h10a1 1 0 0 1 1 1v6.5a1 1 0 0 1-1 1H8.2L5 14.5V11H3a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1zm2 3a.75.75 0 0 0 0 1.5h6A.75.75 0 1 0 11 6H5zm0 3a.75.75 0 0 0 0 1.5h3A.75.75 0 1 0 8 9H5z" />
+            </svg>
+            <span>Slack</span>
+          </a>
+
+          <a
+            class="nav-link"
+            href="https://lists.orca-lf.org/g/main"
+            target="_blank"
+            rel="noopener"
+          >
+            <span>Mailing list</span>
+          </a>
+
+          <a
+            class="nav-link"
+            href="https://zoom-lfx.platform.linuxfoundation.org/meetings/isolation-alliance?view=week"
+            target="_blank"
+            rel="noopener"
+          >
+            <span>Calendar</span>
+          </a>
+          <a
+             class="nav-link"
+             href="tech-talks.html"
+          >
+          <span>Tech Talks</span>
+          </a>
+          <a
+            class="nav-link"
+            href="https://www.linuxfoundation.org/projects"
+            target="_blank"
+            rel="noopener"
+          >
+            <span>Linux Foundation</span>
+          </a>
+        </nav>
+      </div>
+
+      <div class="header-main">
+        <img
+          src="logos/orca-logo-text.png"
+          alt="Open Robust Compartmentalization Alliance (ORCA) logo"
+          class="logo"
+        >
+        <h1>ORCA Is Now Accepting Projects</h1>
+      </div>
+    </header>
+
+    <main>
+      <section>
+        <h2>We're open for projects</h2>
+        <p>
+          The Open Robust Compartmentalization Alliance (ORCA) is ready to welcome
+          its first projects. If you are building or researching ways to isolate
+          and compartmentalize real systems across the stack, we invite you to
+          bring your work to ORCA.
+        </p>
+        <p>
+          We are now accepting proposals to enter ORCA at the <strong>Sandbox</strong>
+          level, the entry point into our hosted project ecosystem. This announcement
+          explains what ORCA is looking for, what your project is asked to contribute,
+          what it receives in return, and how to apply.
+        </p>
+      </section>
+
+      <section>
+        <h2>Why ORCA, and why now</h2>
+        <p>
+          Attacks are getting faster, cheaper, and more automated, increasingly
+          with the help of AI tooling. The industry already invests heavily in
+          reducing the <em>chance</em> that a bug can be exploited. ORCA focuses
+          on the other half of the risk equation: limiting the <em>consequences</em>
+          when something does go wrong.
+        </p>
+        <p>
+          Strong compartment boundaries through clean separation of components help
+          ensure that a single compromise does not cascade into a full-system
+          failure. ORCA is a neutral, vendor-independent home for the people turning
+          that idea into deployable, everyday defense in depth &mdash; and a
+          crossroads where isolation efforts from across the stack come together,
+          reinforce one another, and reach a wider audience than any one of them
+          could alone.
+        </p>
+      </section>
+
+      <section>
+        <h2>What we're looking for</h2>
+        <p>
+          ORCA is intentionally cross-layer. We are interested in techniques that
+          reinforce one another across the stack, including:
+        </p>
+        <ul>
+          <li>
+            <strong>Languages &amp; runtimes</strong> &mdash; memory-safe
+            programming languages, capability systems
+          </li>
+          <li>
+            <strong>User-space isolation</strong> &mdash; WebAssembly, sandboxes,
+            software fault isolation (SFI), isolation libraries
+          </li>
+          <li>
+            <strong>Containers &amp; orchestration</strong> &mdash; multi-tenant
+            services, cloud isolation
+          </li>
+          <li>
+            <strong>Operating systems &amp; kernels</strong> &mdash;
+            compartmentalized OS designs
+          </li>
+          <li>
+            <strong>Hypervisors &amp; virtualization</strong> &mdash; VM isolation,
+            secure hosting layers
+          </li>
+          <li>
+            <strong>Hardware &amp; processors</strong> &mdash; architectural
+            support, memory protection
+          </li>
+        </ul>
+        <p>
+          A strong candidate project is aligned with the ORCA mission and is either
+          a <strong>novel approach</strong> in one of these areas or addresses an
+          <strong>unfulfilled need</strong>.
+        </p>
+      </section>
+
+      <section>
+        <h2>What your project gets</h2>
+        <p>
+          In exchange for meeting the requirements at each level, projects are
+          eligible for an assortment of benefits and access to the Alliance's
+          resources. From day one at the Sandbox level, a project can expect:
+        </p>
+        <ul>
+          <li>
+            <strong>Technical guidance</strong> &mdash; architecture and roadmap
+            alignment, with guidance on technical direction from the Technical
+            Steering Committee (TSC)
+          </li>
+          <li>
+            <strong>Communication and collaboration support</strong> &mdash; ORCA
+            mailing list, Slack, GitHub, calendaring and meeting recordings through
+            the Linux Foundation, and social media and external-engagement support
+          </li>
+          <li>
+            <strong>Basic infrastructure support</strong> &mdash; such as a mailing
+            list and GitHub repository
+          </li>
+          <li>
+            <strong>Best-effort ORCA staff support</strong>
+          </li>
+          <li>
+            <strong>Conference and event consideration</strong> &mdash; in-scope
+            status for submissions to any ORCA-managed conference or event
+          </li>
+          <li>
+            <strong>Governance and administration support</strong> &mdash; project
+            charter development and review, TSC setup, IP and license review,
+            operations and maintenance, and technical support
+          </li>
+          <li>
+            <strong>A recognized identity</strong> &mdash; the ability to describe
+            your work as &ldquo;a sandbox project in the ORCA&rdquo;
+          </li>
+          <li>
+            <strong>Fundraising help</strong> &mdash; with TSC approval,
+            coordination and letters of support for grants and dedicated project
+            funds
+          </li>
+        </ul>
+        <p>
+          These benefits grow as a project matures into the <strong>Incubating</strong>
+          and <strong>Graduated</strong> stages, adding a custom ORCA logo and the
+          right to use the ORCA brand to promote the project (e.g., &ldquo;ORCA
+          $ProjectName&rdquo;), posts on the ORCA blog, project swag, booth space at
+          ORCA-managed events, advanced infrastructure such as cloud hosting, ORCA
+          budget for security audits, and higher-priority staff support. See the
+          <a
+            href="https://github.com/ORCA-LF/tsc/blob/main/process/Gives_and_Gets_Software_Projects.md"
+            target="_blank"
+            rel="noopener"
+          >&ldquo;Gives and Gets&rdquo; document</a>
+          for the full set of requirements and benefits at each level.
+        </p>
+      </section>
+
+      <section>
+        <h2>The project ladder</h2>
+        <p>
+          Projects join ORCA at the Sandbox level and can grow through three
+          maturity stages:
+        </p>
+        <ul>
+          <li>
+            <strong>Sandbox</strong> &mdash; the entry point for promising,
+            early-stage, or experimental work
+          </li>
+          <li>
+            <strong>Incubating</strong> &mdash; projects with documented governance,
+            an active and diverse community, and demonstrable adoption
+          </li>
+          <li>
+            <strong>Graduated</strong> &mdash; mature projects with proven
+            governance, a documented roadmap, a consistent release cadence, and a
+            completed security assessment
+          </li>
+        </ul>
+        <p>
+          Please refer to the
+          <a
+            href="https://github.com/ORCA-LF/tsc/blob/main/process/Gives_and_Gets_Software_Projects.md"
+            target="_blank"
+            rel="noopener"
+          >&ldquo;Gives and Gets&rdquo; document</a>
+          for more information.
+        </p>
+      </section>
+
+      <section>
+        <h2>How to apply</h2>
+        <ol>
+          <li>
+            <strong>File a pull request</strong> to the
+            <a
+              href="https://github.com/ORCA-LF/tsc/pulls"
+              target="_blank"
+              rel="noopener"
+            >ORCA TSC repository</a>
+            requesting to enter the Sandbox stage.
+          </li>
+          <li>
+            <strong>Come talk to us first if you'd like.</strong> We're glad to
+            discuss fit, answer questions, and help you prepare a strong proposal
+            before you file.
+          </li>
+        </ol>
+        <p>
+          To start a conversation, reach out through any of these channels:
+        </p>
+        <ul>
+          <li>
+            <strong>Email:</strong>
+            <a href="mailto:info@orca-lf.org">info@orca-lf.org</a>
+          </li>
+          <li>
+            <strong>Slack:</strong>
+            <a
+              href="https://join.slack.com/t/orca-lf/shared_invite/zt-415mmabiq-8K_gpJQWZX6FwwyhRd769Q"
+              target="_blank"
+              rel="noopener noreferrer"
+            >Join the ORCA Slack workspace</a>
+          </li>
+          <li>
+            <strong>Mailing list:</strong>
+            <a
+              href="https://lists.orca-lf.org/g/main"
+              target="_blank"
+              rel="noopener"
+            >Subscribe for announcements and updates</a>
+          </li>
+          <li>
+            <strong>Calendar &amp; Tech Talks:</strong>
+            <a
+              href="https://zoom-lfx.platform.linuxfoundation.org/meetings/isolation-alliance?view=week"
+              target="_blank"
+              rel="noopener"
+            >Community calendar</a>
+            ·
+            <a href="tech-talks.html">Tech Talks</a>
+          </li>
+        </ul>
+        <p>
+          ORCA spans the whole stack, from hardware up through operating systems,
+          runtimes, and the applications that run on them. Wherever your work sits,
+          if you care about isolation and compartmentalization, there is a place for
+          your project here. We look forward to building it with you.
+        </p>
+      </section>
+    </main>
+
+    <footer>
+      <div>
+        © <span id="year"></span> The Linux Foundation®. All rights reserved.
+        The Linux Foundation owns and uses registered trademarks. For more
+        information, including terms of use, privacy policy, and trademark
+        usage, please see the
+        <a
+          href="https://www.linuxfoundation.org/legal/policies"
+          target="_blank"
+          rel="noopener"
+        >
+          Policies
+        </a>
+        page.
+        <a
+          href="https://www.linuxfoundation.org/legal/privacy-policy"
+          target="_blank"
+          rel="noopener"
+        >
+          Privacy Policy
+        </a>
+        |
+        <a
+          href="https://www.linuxfoundation.org/legal/trademark-usage"
+          target="_blank"
+          rel="noopener"
+        >
+          Trademark Usage
+        </a>
+      </div>
+    </footer>
+  </div>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
