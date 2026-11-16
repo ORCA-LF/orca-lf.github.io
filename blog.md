@@ -78,6 +78,22 @@ The following papers, published at leading security conferences, highlight recen
 
 These publications demonstrate the continued momentum behind compartmentalization research and the importance of collaboration between academia, industry, and open-source communities to translate research advances into widely deployable technologies.
 
+### Recent ORCA Tech Talks
+
+ORCA hosts monthly technical talks featuring researchers and practitioners advancing software isolation and compartmentalization. These presentations provide opportunities for the community to learn about emerging technologies, discuss research challenges, and explore practical approaches to deploying compartmentalization across the software stack.
+
+Recent presentations include:
+
+- **The try semisolate System** — *Michael Greenberg (Stevens Institute of Technology), September 10, 2026.* A presentation introducing the `try` semisolate system and its approach to software isolation. [Watch the presentation](https://orca-lf.org/tech-talks.html).
+
+- **Mohabi: Disaggregating and Sandboxing the Firefox JavaScript Engine** — *Abhishek Sharma and Anand Balaji (University of Texas at Austin), Zach Yedidia (Stanford University), August 13, 2026.* A presentation exploring the disaggregation and sandboxing of the Firefox JavaScript engine to improve application security through compartmentalization. [Watch the presentation](https://orca-lf.org/tech-talks.html).
+
+- **Compartmentalization Architecture Using Commodity Hardware for Enforcement (CACHE)** — *Gerald Fry (Charles River Analytics, a GRVTY Company) and Prof. Richard West (Boston University), June 11, 2026.* A presentation on using commodity hardware mechanisms to enforce compartment boundaries, with an emphasis on practical compartmentalization architectures. [Watch the presentation](https://orca-lf.org/tech-talks.html).
+
+ORCA Tech Talks are open to the community and generally take place on the **second Thursday of each month, from 12:00 to 1:00 p.m. Eastern Time**. Recordings of past presentations and information about upcoming talks are available in the [ORCA Tech Talks archive](https://orca-lf.org/tech-talks.html).
+
+Researchers and practitioners interested in presenting their work are encouraged to contact the ORCA organizers and participate in this growing technical community.
+
 ## Join the ORCA Community
 
 As ORCA enters its second year, the alliance looks forward to expanding its portfolio of open-source projects, strengthening collaboration across the compartmentalization research community, and accelerating the adoption of practical isolation technologies.
